@@ -1,0 +1,122 @@
+:root {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1vw;
+}
+
+body {
+    width: 98.8vw;
+    margin: 0;
+    padding: 2%;
+    box-sizing: border-box;
+}
+
+.main {
+    width: 100%;
+    min-height: 100vh;
+    max-height: auto;
+    margin: auto;
+    padding: 8% 10% 3%;
+    background-color: rgb(209, 209, 255);
+    border: 1em solid rgb(0, 0, 87);
+    box-sizing: border-box;
+}
+
+.main .head {
+    width: 100%;
+    height: 20%;
+    margin: 0 auto 12%;
+    box-sizing: border-box;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.main .head #potrait-image {
+    width: 32%;
+    height: 100%;
+    margin: 0;
+    transition: 0.5s;
+}
+
+.main .head #potrait-image:hover {
+    transform: scale(1.06);
+    transition: 0.4s;
+}
+
+.main .head #potrait-image img {
+    width: 100%;
+    height: 100%;
+    border: 1px solid rgb(71, 71, 71);
+    border-radius: 50%;
+    transition: 0.5s;
+}
+
+.main .head #potrait-image:hover img {
+    box-shadow: 2px 2px 15px black;
+    transition: 0.4s;
+}
+
+.main .head .caption {
+    width: 60%;
+    height: 100%;
+    text-align: right;
+}
+
+.main .head .caption .name {
+    margin: 30% 0 0;
+    font-size: 3.4em;
+    font-weight: 700;
+    color:rgb(0, 0, 87);
+    text-transform: uppercase;
+}
+
+.main .head .caption .year {
+    font-size: 2.5em;
+    font-weight: 700;
+}
+
+.main .title {
+    width: 100%;
+    font-size: 4em;
+    font-weight: 700;
+}
+
+.main .description {
+    width: 100%;
+    margin: 0 auto 8%;
+    font-size: 1.5em;
+    line-height: 1.6em;
+    text-align: justify;
+}
+
+.main .biography {
+    width: 100%;
+    margin: 0 auto 14%;
+}
+
+.main .biography .section-heading {
+    font-size: 1.5em;
+    font-weight: 700;
+}
+
+.main .biography .list {
+    width: 100%;
+}
+
+.main .biography .list .list-item {
+    margin: 2% 0 0 3%;
+    font-size: 1em;
+}
+
+.main .foot {
+    width: 100%;
+    margin: 0;
+    font-size: 1.1em;
+    text-align: right;
+}
+
+.main .foot .url:hover a {
+    color: red;
+    cursor: pointer;
+}
