@@ -102,6 +102,7 @@ body {
 
 .main .biography .list {
     width: 100%;
+    box-sizing: border-box;
 }
 
 .main .biography .list .list-item {
@@ -120,3 +121,74 @@ body {
     color: red;
     cursor: pointer;
 }
+
+
+
+@media screen and (min-width: 540px) and (max-width: 959px) {
+    :root {
+        font-size: 2vw;
+    }
+
+    .main .head {
+        margin: 12% auto 30%;
+    
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .main .head #potrait-image {
+        width: 80%;
+    }
+
+    .main .head .caption {
+        width: 100%;
+        font-size: 0.8em;
+        text-align: center;
+    }
+
+    .main .title {
+        font-size: 3.8em;
+    }
+
+    .main .biography {
+        margin: 0 auto 25%;
+    }
+}
+
+
+
+@media screen and (max-width: 539px) {
+    :root {
+        font-size: 2vw;
+    }
+
+    .main .head {
+        margin: 10% auto 30%;
+    
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .main .head #potrait-image {
+        width: 80%;
+    }
+
+    .main .head .caption {
+        width: 100%;
+        font-size: 0.8em;
+        text-align: center;
+    }
+
+    .main .title {
+        font-size: 3.8em;
+    }
+
+    .main .biography {
+        margin: 0 auto 25%;
+    }
+}
+
